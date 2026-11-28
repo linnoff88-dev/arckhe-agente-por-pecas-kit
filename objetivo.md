@@ -4,7 +4,7 @@
 Recebe pedidos pelo chat, pelo Telegram e por arquivos numa pasta, e devolve a resposta ou faz a tarefa
 (anotar na lista, ler um arquivo, lembrar de um fato).
 
-## O que ele NÃO faz
+## O que ele NãO faz
 - Não mexe em nada fora da pasta `trabalho/`.
 - Não substitui arquivo que já existe sem o meu OK.
 - Não responde a quem não é o dono no Telegram.

@@ -1,4 +1,4 @@
-"""O CÉREBRO: leva a conversa ao modelo e devolve o que ele decidiu.
+"""O CéREBRO: leva a conversa ao modelo e devolve o que ele decidiu.
 Padrão: o Codex da sua assinatura do ChatGPT (comando `codex exec`), sem chave de API.
 Para rodar 100% local com o Ollama: CEREBRO=local (o módulo à parte é o cerebro_local.py)."""
 import json, os, subprocess, tempfile
@@ -15,7 +15,7 @@ else:
                  '{{"resposta": "<texto>"}}  para responder ao dono.')
 
     def conversa(mensagens):
-        quem = {"system": "INSTRUÇÕES", "user": "DONO", "assistant": "VOCÊ", "tool": "A FERRAMENTA DEVOLVEU"}
+        quem = {"system": "INSTRUçÕES", "user": "DONO", "assistant": "VOCê", "tool": "A FERRAMENTA DEVOLVEU"}
         linhas = []
         for m in mensagens:
             texto = m.get("content") or json.dumps(m.get("tool_calls"), ensure_ascii=False)

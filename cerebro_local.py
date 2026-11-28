@@ -1,4 +1,4 @@
-"""O CÉREBRO LOCAL (módulo à parte): o mesmo papel do cerebro.py, com um modelo no seu computador (Ollama).
+"""O CéREBRO LOCAL (módulo à parte): o mesmo papel do cerebro.py, com um modelo no seu computador (Ollama).
 Use com CEREBRO=local. Precisa do Ollama instalado e do modelo baixado (ollama pull llama3.2)."""
 import json, os, urllib.request
 

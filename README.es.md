@@ -1,6 +1,6 @@
 # agente-por-pecas-kit
 
-[![Agente por piezas](guia/assets/banner-es.jpg)](https://inematds.github.io/agente-por-pecas-kit/guia/es/)
+[![Agente por piezas](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/agente-por-pecas-kit/guia/es/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,12 +10,12 @@ Este es el kit del curso gratuito **Agente por piezas** (en portugués): un agen
 
 ## 📖 Guía de uso
 
-Guía completa (landing + paso a paso): **https://inematds.github.io/agente-por-pecas-kit/guia/es/**
-Curso gratuito (en portugués): **https://inematds.github.io/agente-por-pecas-v73/**
+Guía completa (landing + paso a paso): **https://linnoff88-dev.github.io/agente-por-pecas-kit/guia/es/**
+Curso gratuito (en portugués): **https://linnoff88-dev.github.io/agente-por-pecas-v73/**
 
 🎬 Video (en portugués): https://www.youtube.com/watch?v=pWXLBVyJd1Y
 
-El kit del curso **Agente por piezas** (INEMA): un agente de IA armado pieza por pieza, donde cada pieza es un archivo.
+El kit del curso **Agente por piezas** (ARCKHé AI): un agente de IA armado pieza por pieza, donde cada pieza es un archivo.
 
 ```
 CANAL ──pedido──▶ CAJA ──¿es exacto?──▶ RECETA (sin cerebro)
@@ -43,7 +43,7 @@ Cada clase del curso es un tag: `git checkout aula2` … `git checkout aula8`.
 ## El proceso, de principio a fin
 
 1. 🧠 Instalar el Codex e iniciar sesión con la suscripción: `npm i -g @openai/codex && codex login`.
-2. 🧠 Descargar el kit: `git clone https://github.com/inematds/agente-por-pecas-kit && cd agente-por-pecas-kit`.
+2. 🧠 Descargar el kit: `git clone https://github.com/linnoff88-dev/agente-por-pecas-kit && cd agente-por-pecas-kit`.
 3. ⚙️ Clase 2 (caja y cerebro): `git checkout aula2 && python3 canal_terminal.py "tu pedido"`.
 4. ⚙️ Clase 3 (chat): `git checkout aula3 && python3 canal_web.py` y abrir la dirección que aparece.
 5. 🧠 Clase 4 (Telegram): crear el bot en @BotFather, guardar `TELEGRAM_TOKEN=...` en el `.env`, `python3 canal_telegram.py`.

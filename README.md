@@ -1,6 +1,6 @@
 # agente-por-pecas-kit
 
-[![Agente por peças](guia/assets/banner.jpg)](https://inematds.github.io/agente-por-pecas-kit/guia/)
+[![Agente por peças](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/agente-por-pecas-kit/guia/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,18 +10,18 @@ Este é o kit do curso grátis **Agente por peças**: um agente de IA pequeno, e
 
 ## 📖 Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/agente-por-pecas-kit/guia/**
-Curso grátis: **https://inematds.github.io/agente-por-pecas-v73/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/agente-por-pecas-kit/guia/**
+Curso grátis: **https://linnoff88-dev.github.io/agente-por-pecas-v73/**
 
 🎬 Vídeo: https://www.youtube.com/watch?v=pWXLBVyJd1Y
 
-O kit do curso **Agente por peças** (INEMA): um agente de IA montado peça por peça, onde cada peça é um arquivo.
+O kit do curso **Agente por peças** (ARCKHé AI): um agente de IA montado peça por peça, onde cada peça é um arquivo.
 
 ```
 CANAL ──pedido──▶ CAIXA ──é exato?──▶ RECEITA (sem cérebro)
 (terminal, chat,    │ não
  Telegram, pasta)   ▼
-                  CÉREBRO (Codex) ──pede──▶ FERRAMENTAS
+                  CéREBRO (Codex) ──pede──▶ FERRAMENTAS
                     │   ▲ memória e regras
                     ▼
                   VERIFICADOR ──▶ sucesso · tentar de novo · cancelar
@@ -43,7 +43,7 @@ Cada aula do curso é uma tag: `git checkout aula2` … `git checkout aula8`.
 ## O processo, do início ao fim
 
 1. 🧠 Instalar o Codex e entrar com a assinatura: `npm i -g @openai/codex && codex login`.
-2. 🧠 Baixar o kit: `git clone https://github.com/inematds/agente-por-pecas-kit && cd agente-por-pecas-kit`.
+2. 🧠 Baixar o kit: `git clone https://github.com/linnoff88-dev/agente-por-pecas-kit && cd agente-por-pecas-kit`.
 3. ⚙️ Aula 2 (caixa e cérebro): `git checkout aula2 && python3 canal_terminal.py "seu pedido"`.
 4. ⚙️ Aula 3 (chat): `git checkout aula3 && python3 canal_web.py` e abrir o endereço que aparece.
 5. 🧠 Aula 4 (Telegram): criar o bot no @BotFather, gravar `TELEGRAM_TOKEN=...` no `.env`, `python3 canal_telegram.py`.
